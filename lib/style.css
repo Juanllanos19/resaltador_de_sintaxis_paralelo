@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+body{
+    background-color: rgb(2, 0, 24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
+}
+.container{
+    position: fixed;
+    background-color: rgb(6, 2, 53);
+    border-radius: 20px 20px 20px 20px;
+    width: 70%;
+    height: 80%;
+    padding: 40px 18px 40px 40px;
+    overflow-y: scroll;
+}
+span.funcion {
+    color: rgb(42, 243, 2);
+}
+span.metodo {
+    color: SteelBlue;
+}
+span.ciclo {
+    color: Blue;
+}
+span.condicional {
+    color: cadetblue;
+}
+span.class {
+    color:wheat;
+}
+span.comentario {
+    color: aqua;
+    font-style: italic;
+}
+span.int {
+    color:rgb(77, 100, 0);
+}
+span.float {
+    color:rgb(77, 150, 0);
+}
+span.string {
+    color:rgb(77, 170, 0);
+}
+span.boolean {
+    color:rgb(100, 255, 120);
+}
+span.operador_logico {
+    color:rgb(255, 0, 47);
+}
+span.operador_aritmetico {
+    color:rgb(160, 0, 47);
+}
+span.operador_asignacion {
+    color:rgb(179, 0, 47);
+}
+span.puntuacion {
+    color: rgb(255, 251, 31);
+}
+span.parentesis {
+    color: rgb(251, 255, 0);
+}
+span.llaves {
+    color: rgb(251, 170, 0);
+}
+span.corchetes {
+    color: rgb(251, 0, 170);
+}
+span.palabra_reservada {
+    color: rgb(0, 174, 255);
+}
+span.identificador {
+    color: rgb(214, 82, 6);
+}
